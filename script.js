@@ -1,5 +1,26 @@
-// Initialiser Leaflet-kartet
-const map = L.map("map").setView([59.91, 10.75], 10); // Startposisjon: Oslo, Norge
+// Funksjon for å sette og lagre visningsposisjon i localStorage
+function saveMapPosition() {
+  const center = map.getCenter();
+  const zoom = map.getZoom();
+  localStorage.setItem('lastMapPosition', JSON.stringify({
+    lat: center.lat,
+    lng: center.lng,
+    zoom: zoom
+  }));
+}
+
+// Funksjon for å hente den siste lagrede posisjonen
+function getSavedMapPosition() {
+  const savedPosition = localStorage.getItem('lastMapPosition');
+  return savedPosition ? JSON.parse(savedPosition) : null;
+}
+
+// Initialiser Leaflet-kartet med posisjonen lagret i localStorage, eller standardposisjon
+const savedPosition = getSavedMapPosition();
+const initialPosition = savedPosition ? [savedPosition.lat, savedPosition.lng] : [59.91, 10.75]; // Default til Oslo
+const initialZoom = savedPosition ? savedPosition.zoom : 10; // Default zoom
+
+const map = L.map("map").setView(initialPosition, initialZoom); // Bruker den lagrede posisjonen eller standard
 
 // Legg til OpenStreetMap-lag
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -62,18 +83,18 @@ async function addPlace(name, description, latitude, longitude) {
 // Funksjon for å slette et sted
 async function deletePlace(id) {
   try {
-      const response = await fetch(`http://localhost:5000/api/places/${id}`, {
-          method: 'DELETE',
-      });
+    const response = await fetch(`http://localhost:5000/api/places/${id}`, {
+      method: 'DELETE',
+    });
 
-      if (!response.ok) {
-          throw new Error('Kunne ikke slette stedet');
-      }
+    if (!response.ok) {
+      throw new Error('Kunne ikke slette stedet');
+    }
 
-      console.log('Sted slettet');
-      loadPlaces(); // Oppdater kartet etter sletting
+    console.log('Sted slettet');
+    loadPlaces(); // Oppdater kartet etter sletting
   } catch (error) {
-      console.error('Feil ved sletting:', error);
+    console.error('Feil ved sletting:', error);
   }
 }
 
@@ -86,6 +107,9 @@ map.on("click", async function (e) {
     await addPlace(name, description, e.latlng.lat, e.latlng.lng);
   }
 });
+
+// Lagre kartposisjon når kartet blir beveget
+map.on("moveend", saveMapPosition);
 
 // Last inn steder ved oppstart
 loadPlaces();
