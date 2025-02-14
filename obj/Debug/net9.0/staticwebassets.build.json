@@ -1,12 +1,702 @@
 {
   "Version": 1,
-  "Hash": "CGg6ypgRZa6f8JFhwAodM1r1GTsuApcEXzgn8mnwPMU=",
+  "Hash": "C0XQY4EHnmN5SZeKul+TLpe9kCYBVZITJ+zmb4iGdck=",
   "Source": "Crud mappe",
   "BasePath": "_content/Crud mappe",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Crud mappe\\wwwroot",
+      "Source": "Crud mappe",
+      "ContentRoot": "C:\\Koding\\Kurs\\C#\\Crud mappe\\wwwroot\\",
+      "BasePath": "_content/Crud mappe",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Koding\\Kurs\\C#\\Crud mappe\\obj\\Debug\\net9.0\\compressed\\lzgaaneinx-c6nrtvvdp2.gz",
+      "SourceId": "Crud mappe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Koding\\Kurs\\C#\\Crud mappe\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Crud mappe",
+      "RelativePath": "index#[.{fingerprint=c6nrtvvdp2}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Koding\\Kurs\\C#\\Crud mappe\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "s3oejk3g04",
+      "Integrity": "iGTndGPN3LQWpJOf/Hb2AhkJ3uSEe1If2wjcplwASBc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Koding\\Kurs\\C#\\Crud mappe\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Koding\\Kurs\\C#\\Crud mappe\\obj\\Debug\\net9.0\\compressed\\ui6tgzdz1y-cecwsqluxv.gz",
+      "SourceId": "Crud mappe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Koding\\Kurs\\C#\\Crud mappe\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Crud mappe",
+      "RelativePath": "script#[.{fingerprint=cecwsqluxv}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Koding\\Kurs\\C#\\Crud mappe\\wwwroot\\script.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xdub79p1e5",
+      "Integrity": "lWk01H/FysVSbgMNlaxKBB5WI+irLcwLgbXvEVW+/n0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Koding\\Kurs\\C#\\Crud mappe\\wwwroot\\script.js"
+    },
+    {
+      "Identity": "C:\\Koding\\Kurs\\C#\\Crud mappe\\wwwroot\\index.html",
+      "SourceId": "Crud mappe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Koding\\Kurs\\C#\\Crud mappe\\wwwroot\\",
+      "BasePath": "_content/Crud mappe",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c6nrtvvdp2",
+      "Integrity": "7Ai+gxfxQwHu3NdNGkWmEVhZYJNYgNouYNmJ44zwIyo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Koding\\Kurs\\C#\\Crud mappe\\wwwroot\\script.js",
+      "SourceId": "Crud mappe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Koding\\Kurs\\C#\\Crud mappe\\wwwroot\\",
+      "BasePath": "_content/Crud mappe",
+      "RelativePath": "script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cecwsqluxv",
+      "Integrity": "xBq+pAGFJd87UOOp4ZX5vG0b8bunOkH2IP9MwA+n4oo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.c6nrtvvdp2.html",
+      "AssetFile": "C:\\Koding\\Kurs\\C#\\Crud mappe\\obj\\Debug\\net9.0\\compressed\\lzgaaneinx-c6nrtvvdp2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003194888179"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "312"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iGTndGPN3LQWpJOf/Hb2AhkJ3uSEe1If2wjcplwASBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 13:38:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"7Ai+gxfxQwHu3NdNGkWmEVhZYJNYgNouYNmJ44zwIyo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c6nrtvvdp2"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Ai+gxfxQwHu3NdNGkWmEVhZYJNYgNouYNmJ44zwIyo="
+        }
+      ]
+    },
+    {
+      "Route": "index.c6nrtvvdp2.html",
+      "AssetFile": "C:\\Koding\\Kurs\\C#\\Crud mappe\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7Ai+gxfxQwHu3NdNGkWmEVhZYJNYgNouYNmJ44zwIyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 13:38:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c6nrtvvdp2"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Ai+gxfxQwHu3NdNGkWmEVhZYJNYgNouYNmJ44zwIyo="
+        }
+      ]
+    },
+    {
+      "Route": "index.c6nrtvvdp2.html.gz",
+      "AssetFile": "C:\\Koding\\Kurs\\C#\\Crud mappe\\obj\\Debug\\net9.0\\compressed\\lzgaaneinx-c6nrtvvdp2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "312"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iGTndGPN3LQWpJOf/Hb2AhkJ3uSEe1If2wjcplwASBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 13:38:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c6nrtvvdp2"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iGTndGPN3LQWpJOf/Hb2AhkJ3uSEe1If2wjcplwASBc="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Koding\\Kurs\\C#\\Crud mappe\\obj\\Debug\\net9.0\\compressed\\lzgaaneinx-c6nrtvvdp2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003194888179"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "312"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iGTndGPN3LQWpJOf/Hb2AhkJ3uSEe1If2wjcplwASBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 13:38:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"7Ai+gxfxQwHu3NdNGkWmEVhZYJNYgNouYNmJ44zwIyo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Ai+gxfxQwHu3NdNGkWmEVhZYJNYgNouYNmJ44zwIyo="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Koding\\Kurs\\C#\\Crud mappe\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7Ai+gxfxQwHu3NdNGkWmEVhZYJNYgNouYNmJ44zwIyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 13:38:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Ai+gxfxQwHu3NdNGkWmEVhZYJNYgNouYNmJ44zwIyo="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Koding\\Kurs\\C#\\Crud mappe\\obj\\Debug\\net9.0\\compressed\\lzgaaneinx-c6nrtvvdp2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "312"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iGTndGPN3LQWpJOf/Hb2AhkJ3uSEe1If2wjcplwASBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 13:38:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iGTndGPN3LQWpJOf/Hb2AhkJ3uSEe1If2wjcplwASBc="
+        }
+      ]
+    },
+    {
+      "Route": "script.cecwsqluxv.js",
+      "AssetFile": "C:\\Koding\\Kurs\\C#\\Crud mappe\\obj\\Debug\\net9.0\\compressed\\ui6tgzdz1y-cecwsqluxv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000732064422"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1365"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lWk01H/FysVSbgMNlaxKBB5WI+irLcwLgbXvEVW+/n0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Feb 2025 10:44:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"xBq+pAGFJd87UOOp4ZX5vG0b8bunOkH2IP9MwA+n4oo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cecwsqluxv"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xBq+pAGFJd87UOOp4ZX5vG0b8bunOkH2IP9MwA+n4oo="
+        }
+      ]
+    },
+    {
+      "Route": "script.cecwsqluxv.js",
+      "AssetFile": "C:\\Koding\\Kurs\\C#\\Crud mappe\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xBq+pAGFJd87UOOp4ZX5vG0b8bunOkH2IP9MwA+n4oo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Feb 2025 10:44:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cecwsqluxv"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xBq+pAGFJd87UOOp4ZX5vG0b8bunOkH2IP9MwA+n4oo="
+        }
+      ]
+    },
+    {
+      "Route": "script.cecwsqluxv.js.gz",
+      "AssetFile": "C:\\Koding\\Kurs\\C#\\Crud mappe\\obj\\Debug\\net9.0\\compressed\\ui6tgzdz1y-cecwsqluxv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1365"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lWk01H/FysVSbgMNlaxKBB5WI+irLcwLgbXvEVW+/n0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Feb 2025 10:44:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cecwsqluxv"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lWk01H/FysVSbgMNlaxKBB5WI+irLcwLgbXvEVW+/n0="
+        }
+      ]
+    },
+    {
+      "Route": "script.js",
+      "AssetFile": "C:\\Koding\\Kurs\\C#\\Crud mappe\\obj\\Debug\\net9.0\\compressed\\ui6tgzdz1y-cecwsqluxv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000732064422"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1365"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lWk01H/FysVSbgMNlaxKBB5WI+irLcwLgbXvEVW+/n0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Feb 2025 10:44:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"xBq+pAGFJd87UOOp4ZX5vG0b8bunOkH2IP9MwA+n4oo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xBq+pAGFJd87UOOp4ZX5vG0b8bunOkH2IP9MwA+n4oo="
+        }
+      ]
+    },
+    {
+      "Route": "script.js",
+      "AssetFile": "C:\\Koding\\Kurs\\C#\\Crud mappe\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xBq+pAGFJd87UOOp4ZX5vG0b8bunOkH2IP9MwA+n4oo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Feb 2025 10:44:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xBq+pAGFJd87UOOp4ZX5vG0b8bunOkH2IP9MwA+n4oo="
+        }
+      ]
+    },
+    {
+      "Route": "script.js.gz",
+      "AssetFile": "C:\\Koding\\Kurs\\C#\\Crud mappe\\obj\\Debug\\net9.0\\compressed\\ui6tgzdz1y-cecwsqluxv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1365"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lWk01H/FysVSbgMNlaxKBB5WI+irLcwLgbXvEVW+/n0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Feb 2025 10:44:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lWk01H/FysVSbgMNlaxKBB5WI+irLcwLgbXvEVW+/n0="
+        }
+      ]
+    }
+  ]
 }

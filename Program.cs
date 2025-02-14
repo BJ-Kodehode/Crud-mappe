@@ -47,6 +47,7 @@ builder.Services.AddCors(options =>
 builder.Services.AddControllers();
 
 var app = builder.Build();
+app.UseStaticFiles();
 
 // 📌 Middleware
 if (app.Environment.IsDevelopment())

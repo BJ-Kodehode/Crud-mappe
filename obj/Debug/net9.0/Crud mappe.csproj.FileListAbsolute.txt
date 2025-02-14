@@ -174,3 +174,6 @@ C:\Koding\Kurs\C#\Crud mappe\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite
 C:\Koding\Kurs\C#\Crud mappe\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Koding\Kurs\C#\Crud mappe\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Koding\Kurs\C#\Crud mappe\obj\Debug\net9.0\Crud mappe.sourcelink.json
+C:\Koding\Kurs\C#\Crud mappe\bin\Debug\net9.0\Crud mappe.staticwebassets.runtime.json
+C:\Koding\Kurs\C#\Crud mappe\obj\Debug\net9.0\compressed\lzgaaneinx-c6nrtvvdp2.gz
+C:\Koding\Kurs\C#\Crud mappe\obj\Debug\net9.0\compressed\ui6tgzdz1y-cecwsqluxv.gz
